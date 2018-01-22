@@ -2,9 +2,9 @@ package main
 
 import (
 	"html/template"
+	"log"
 	"net/http"
 	"strconv"
-	"log"
 )
 
 var templates = template.Must(template.ParseFiles(

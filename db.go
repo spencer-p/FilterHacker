@@ -12,8 +12,8 @@ const (
 )
 
 type Post struct {
-	Id    bson.ObjectId `bson:"_id,omitempty"`
-	Date  int64         `bson:"date"`
+	Id   bson.ObjectId `bson:"_id,omitempty"`
+	Date int64         `bson:"date"`
 }
 
 func open() (*mgo.Session, error) {
